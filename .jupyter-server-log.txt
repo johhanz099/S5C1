@@ -27,3 +27,4 @@
 [I 04:26:24.688 NotebookApp] 301 GET /user/johhanz099-s5c1-43ue59lv/static/favicons/favicon.ico (186.155.14.130) 0.830000ms
 [I 2022-09-08 04:26:28.617 LabApp] Build is up to date
 [I 04:29:35.394 NotebookApp] New terminal with automatic name: 1
+[I 04:59:47.966 NotebookApp] Saving file at /prueba.txt
