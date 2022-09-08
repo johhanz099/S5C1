@@ -1,0 +1,29 @@
+[I 04:26:20.419 NotebookApp] Writing notebook server cookie secret to /home/jovyan/.local/share/jupyter/runtime/notebook_cookie_secret
+[W 2022-09-08 04:26:21.964 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-09-08 04:26:21.964 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-09-08 04:26:21.964 LabApp] 'base_url' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-09-08 04:26:21.965 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-09-08 04:26:21.965 LabApp] 'trust_xheaders' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-09-08 04:26:21.965 LabApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-09-08 04:26:21.965 LabApp] 'allow_origin_pat' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-09-08 04:26:21.965 LabApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2022-09-08 04:26:21.965 LabApp] 'jinja_template_vars' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2022-09-08 04:26:21.965 LabApp] 'shutdown_no_activity_timeout' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-09-08 04:26:21.965 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-09-08 04:26:21.965 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-09-08 04:26:21.979 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/jupyterlab
+[I 2022-09-08 04:26:21.979 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 04:26:21.992 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/nteract_on_jupyter
+[I 04:26:21.995 NotebookApp] Will shut down after 600 seconds with no kernels or terminals.
+[I 04:26:21.996 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 04:26:21.996 NotebookApp] Jupyter Notebook 6.4.10 is running at:
+[I 04:26:21.996 NotebookApp] http://jupyter-johhanz099-2ds5c1-2d43ue59lv:8888/user/johhanz099-s5c1-43ue59lv/?token=...
+[I 04:26:21.996 NotebookApp]  or http://127.0.0.1:8888/user/johhanz099-s5c1-43ue59lv/?token=...
+[I 04:26:21.997 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 04:26:22.004 NotebookApp] No web browser found: could not locate runnable browser.
+[I 04:26:22.143 NotebookApp] 302 GET /user/johhanz099-s5c1-43ue59lv/ (10.0.6.18) 1.160000ms
+[I 04:26:22.445 NotebookApp] 302 GET /user/johhanz099-s5c1-43ue59lv/?token=rwzGDT7EQSu-EeGh_O8qHw (186.155.14.130) 3.290000ms
+[I 04:26:22.540 NotebookApp] 301 GET /user/johhanz099-s5c1-43ue59lv/lab/?token=rwzGDT7EQSu-EeGh_O8qHw (186.155.14.130) 2.240000ms
+[I 04:26:24.688 NotebookApp] 301 GET /user/johhanz099-s5c1-43ue59lv/static/favicons/favicon.ico (186.155.14.130) 0.830000ms
+[I 2022-09-08 04:26:28.617 LabApp] Build is up to date
+[I 04:29:35.394 NotebookApp] New terminal with automatic name: 1
