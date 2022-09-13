@@ -29,3 +29,103 @@
 [I 04:29:35.394 NotebookApp] New terminal with automatic name: 1
 [I 04:59:47.966 NotebookApp] Saving file at /prueba.txt
 [I 05:02:50.463 NotebookApp] Saving file at /prueba.txt
+[W 2022-09-13 14:13:01.262 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-09-13 14:13:01.262 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-09-13 14:13:01.262 LabApp] 'base_url' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-09-13 14:13:01.262 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-09-13 14:13:01.262 LabApp] 'trust_xheaders' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-09-13 14:13:01.262 LabApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-09-13 14:13:01.262 LabApp] 'allow_origin_pat' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-09-13 14:13:01.262 LabApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2022-09-13 14:13:01.262 LabApp] 'jinja_template_vars' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2022-09-13 14:13:01.262 LabApp] 'shutdown_no_activity_timeout' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-09-13 14:13:01.263 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-09-13 14:13:01.263 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-09-13 14:13:01.275 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/jupyterlab
+[I 2022-09-13 14:13:01.275 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 14:13:01.285 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/nteract_on_jupyter
+[I 14:13:01.288 NotebookApp] Will shut down after 600 seconds with no kernels or terminals.
+[I 14:13:01.289 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 14:13:01.289 NotebookApp] Jupyter Notebook 6.4.10 is running at:
+[I 14:13:01.289 NotebookApp] http://jupyter-johhanz099-2ds5c1-2d7cfb35oh:8888/user/johhanz099-s5c1-7cfb35oh/?token=...
+[I 14:13:01.289 NotebookApp]  or http://127.0.0.1:8888/user/johhanz099-s5c1-7cfb35oh/?token=...
+[I 14:13:01.289 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 14:13:01.295 NotebookApp] No web browser found: could not locate runnable browser.
+[I 14:13:03.559 NotebookApp] 302 GET /user/johhanz099-s5c1-7cfb35oh/ (10.0.6.32) 1.000000ms
+[I 14:13:03.925 NotebookApp] 302 GET /user/johhanz099-s5c1-7cfb35oh/?token=JC94OQs8QSaRCAGRvUCi_Q (168.176.239.67) 1.080000ms
+[I 14:13:04.050 NotebookApp] 301 GET /user/johhanz099-s5c1-7cfb35oh/lab/?token=JC94OQs8QSaRCAGRvUCi_Q (168.176.239.67) 1.810000ms
+[I 14:13:08.707 NotebookApp] 301 GET /user/johhanz099-s5c1-7cfb35oh/static/favicons/favicon.ico (168.176.239.67) 0.670000ms
+[I 2022-09-13 14:13:13.118 LabApp] Build is up to date
+[I 14:13:14.328 NotebookApp] New terminal with automatic name: 1
+[I 14:18:00.690 NotebookApp] Saving file at /AnayaBryan_S5C2_repasoC.cpp
+[I 14:30:04.355 NotebookApp] Saving file at /AnayaBryan_S5C2_repasoC.cpp
+[I 14:33:27.818 NotebookApp] Saving file at /AnayaBryan_S5C2_repasoC.cpp
+[I 14:33:49.391 NotebookApp] Saving file at /AnayaBryan_S5C2_repasoC.cpp
+[I 14:34:20.562 NotebookApp] Saving file at /AnayaBryan_S5C2_repasoC.cpp
+[I 14:36:06.111 NotebookApp] Saving file at /AnayaBryan_S5C2_repasoC.cpp
+[I 14:42:24.946 NotebookApp] Saving file at /AnayaBryan_S5C2_repasoC.cpp
+[I 14:42:59.863 NotebookApp] Saving file at /AnayaBryan_S5C2_repasoC.cpp
+[I 14:43:18.661 NotebookApp] Saving file at /AnayaBryan_S5C2_repasoC.cpp
+[I 14:45:18.928 NotebookApp] Saving file at /AnayaBryan_S5C2_repasoC.cpp
+[I 14:46:41.846 NotebookApp] Saving file at /AnayaBryan_S5C2_repasoC.cpp
+[I 14:46:48.758 NotebookApp] Saving file at /AnayaBryan_S5C2_repasoC.cpp
+[I 14:47:08.586 NotebookApp] Saving file at /AnayaBryan_S5C2_repasoC.cpp
+[I 14:48:24.717 NotebookApp] Saving file at /AnayaBryan_S5C2_repasoC.cpp
+[I 14:48:34.844 NotebookApp] Saving file at /AnayaBryan_S5C2_repasoC.cpp
+[I 14:50:21.395 NotebookApp] Saving file at /AnayaBryan_S5C2_repasoC.cpp
+[I 14:50:28.280 NotebookApp] Saving file at /AnayaBryan_S5C2_repasoC.cpp
+[I 14:53:35.887 NotebookApp] Saving file at /AnayaBryan_S5C2_repasoC.cpp
+[I 14:54:08.761 NotebookApp] Saving file at /AnayaBryan_S5C2_repasoC.cpp
+[I 14:54:28.764 NotebookApp] Saving file at /AnayaBryan_S5C2_repasoC.cpp
+[I 14:54:58.099 NotebookApp] Saving file at /AnayaBryan_S5C2_repasoC.cpp
+[I 14:55:20.013 NotebookApp] Saving file at /AnayaBryan_S5C2_repasoC.cpp
+[I 14:57:44.024 NotebookApp] Saving file at /AnayaBryan_S5C2_repasoC.cpp
+[I 14:58:06.240 NotebookApp] Saving file at /AnayaBryan_S5C2_repasoC.cpp
+[I 14:59:54.880 NotebookApp] Saving file at /AnayaBryan_S5C2_repasoC.cpp
+[I 15:03:55.517 NotebookApp] Saving file at /AnayaBryan_S5C2_repasoC.cpp
+[I 15:05:07.884 NotebookApp] Saving file at /AnayaBryan_S5C2_repasoC.cpp
+[I 15:05:42.522 NotebookApp] Saving file at /AnayaBryan_S5C2_repasoC.cpp
+[I 15:05:55.648 NotebookApp] Saving file at /AnayaBryan_S5C2_repasoC.cpp
+[I 15:07:56.154 NotebookApp] Saving file at /AnayaBryan_S5C2_repasoC.cpp
+[I 15:09:27.304 NotebookApp] Saving file at /AnayaBryan_S5C2_repasoC.cpp
+[I 15:09:39.905 NotebookApp] Saving file at /AnayaBryan_S5C2_repasoC.cpp
+[I 15:10:00.935 NotebookApp] Saving file at /AnayaBryan_S5C2_repasoC.cpp
+[I 15:10:13.987 NotebookApp] Saving file at /AnayaBryan_S5C2_repasoC.cpp
+[I 15:11:34.508 NotebookApp] Saving file at /AnayaBryan_S5C2_repasoC.cpp
+[I 15:13:03.634 NotebookApp] Saving file at /AnayaBryan_S5C2_repasoC.cpp
+[I 15:13:15.108 NotebookApp] Saving file at /AnayaBryan_S5C2_repasoC.cpp
+[I 15:13:38.824 NotebookApp] Saving file at /AnayaBryan_S5C2_repasoC.cpp
+[I 15:13:58.320 NotebookApp] Saving file at /AnayaBryan_S5C2_repasoC.cpp
+[I 15:18:38.604 NotebookApp] Saving file at /AnayaBryan_S5C2_repasoC.cpp
+[I 15:20:40.239 NotebookApp] Saving file at /AnayaBryan_S5C2_repasoC.cpp
+[I 15:21:40.261 NotebookApp] Saving file at /AnayaBryan_S5C2_repasoC.cpp
+[I 15:21:49.125 NotebookApp] Saving file at /AnayaBryan_S5C2_repasoC.cpp
+[I 15:22:51.203 NotebookApp] Saving file at /AnayaBryan_S5C2_repasoC.cpp
+[I 15:23:10.184 NotebookApp] Saving file at /AnayaBryan_S5C2_repasoC.cpp
+[I 15:24:28.103 NotebookApp] Saving file at /AnayaBryan_S5C2_repasoC.cpp
+[I 15:25:12.822 NotebookApp] Saving file at /AnayaBryan_S5C2_repasoC.cpp
+[I 15:25:16.325 NotebookApp] Saving file at /AnayaBryan_S5C2_repasoC.cpp
+[I 15:25:29.091 NotebookApp] Saving file at /AnayaBryan_S5C2_repasoC.cpp
+[I 15:26:55.485 NotebookApp] Saving file at /AnayaBryan_S5C2_repasoC.cpp
+[I 15:27:14.515 NotebookApp] Saving file at /AnayaBryan_S5C2_repasoC.cpp
+[I 15:27:52.016 NotebookApp] Saving file at /AnayaBryan_S5C2_repasoC.cpp
+[I 15:28:22.833 NotebookApp] Saving file at /AnayaBryan_S5C2_repasoC.cpp
+[I 15:28:48.477 NotebookApp] Saving file at /AnayaBryan_S5C2_repasoC.cpp
+[I 15:30:08.633 NotebookApp] Saving file at /AnayaBryan_S5C2_repasoC.cpp
+[I 15:31:51.567 NotebookApp] Saving file at /AnayaBryan_S5C2_repasoC.cpp
+[I 15:33:52.094 NotebookApp] Saving file at /AnayaBryan_S5C2_repasoC.cpp
+[I 15:35:52.347 NotebookApp] Saving file at /AnayaBryan_S5C2_repasoC.cpp
+[I 15:37:41.640 NotebookApp] Saving file at /AnayaBryan_S5C2_repasoC.cpp
+[I 15:38:15.185 NotebookApp] Saving file at /AnayaBryan_S5C2_repasoC.cpp
+[I 15:38:25.212 NotebookApp] Saving file at /AnayaBryan_S5C2_repasoC.cpp
+[I 15:38:32.484 NotebookApp] Saving file at /AnayaBryan_S5C2_repasoC.cpp
+[I 15:39:12.796 NotebookApp] Saving file at /AnayaBryan_S5C2_repasoC.cpp
+[I 15:41:04.478 NotebookApp] Saving file at /AnayaBryan_S5C2_repasoC.cpp
+[I 15:42:06.641 NotebookApp] Saving file at /AnayaBryan_S5C2_repasoC.cpp
+[I 15:42:28.880 NotebookApp] Saving file at /AnayaBryan_S5C2_repasoC.cpp
+[I 15:44:38.747 NotebookApp] Saving file at /AnayaBryan_S5C2_repasoC.cpp
+[I 15:45:02.458 NotebookApp] Saving file at /AnayaBryan_S5C2_repasoC.cpp
+[I 15:45:27.249 NotebookApp] Saving file at /AnayaBryan_S5C2_repasoC.cpp
+[I 15:45:58.539 NotebookApp] Saving file at /AnayaBryan_S5C2_repasoC.cpp
+[I 15:46:18.059 NotebookApp] Saving file at /AnayaBryan_S5C2_repasoC.cpp
+[I 15:46:29.349 NotebookApp] Saving file at /AnayaBryan_S5C2_repasoC.cpp
