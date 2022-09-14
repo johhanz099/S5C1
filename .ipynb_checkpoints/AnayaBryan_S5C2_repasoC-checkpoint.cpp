@@ -1,6 +1,7 @@
 #include <iostream>
 #include <cstdlib>
 #include <cmath>
+#include <fstream>
 using namespace std;
 
 /*
@@ -33,17 +34,52 @@ Funcion buscar minimo de un arreglo
 int minArr(int arr[], int n, int max);
 
 int main(){
+	// Open file
+	ofstream outfile;
+	outfile.open("arrAleat.dat");
+	
+
 	cout << "La primera variable tiene un valor de " << varInt << " y la segunda variable tiene un valor de " << varDoub << "\n";
 	cout << "El resultado de dividir la segunda entre la primera es: " << funcDiv(varInt,varDoub) << "\n";
-    int n = 10;
+    
+	// Arreglo numeros aleatorios [0,900]
+	int n = 300;
     int arrRand[n] = {};
     for (int i = 0; i < n; i++){
-        arrRand[i] = rand() % 901;
+        arrRand[i] = rand() % 900;
         }
     cout << "El arreglo es: ";
     for (int i = 0; i < n; i++){
         cout << arrRand[i] << ' ';
+		outfile << arrRand[i] << '\n';
     }
+	// Close data 1
+	outfile.close();
+		
+    cout << '\n';
+    cout << "El arreglo de números impares menores al umbral es: ";
+	// Arreglo con impares menos que 800
+	outfile.open("arrImp.dat");
+	int umbral = 800; 
+	outfile << 1 << '\n';
+    bool b = true;
+	for (int i = 0; i < n && b; i++){
+        if (arrRand[i] < umbral && arrRand[i]%2 != 0){
+            cout << arrRand[i] << ' ';
+			outfile << arrRand[i] << '\n';
+		}
+        else if (arrRand[i] > umbral ){
+            b = false;
+        }
+    }
+
+	// Close
+	outfile.close();
+	
+
+
+	
+
 	cout << '\n';
     cout << "El quinto elemento del arreglo de números aleatorios es: " << arrRand[5-1] << '\n';
     cout << "La longitud del arreglo es: " << sizeof(arrRand)/sizeof(int) << '\n';
@@ -66,12 +102,13 @@ Crear arreglo
 int n = tamaño
 int min = límite inferior
 int max = límite superior
-int* arrAleat(int n, int min, int max){
-	static int arrg[1000];
+
+int *arrAleat(int n, int min, int max){
+	int arr[n] = {};
 	for (int i = 0; i < n; i++){
-		array_[i] = i;
+		arr[i] = i;
 	}
-	return arrg;
+	return arr;
 }
 */
 
@@ -95,6 +132,8 @@ int minArr(int arr[],int n, int max){
     }
     return ctr;
 }
+
+
 
 
 

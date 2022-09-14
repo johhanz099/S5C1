@@ -46,7 +46,7 @@ int main(){
 	int n = 300;
     int arrRand[n] = {};
     for (int i = 0; i < n; i++){
-        arrRand[i] = rand() % 901;
+        arrRand[i] = rand() % 900;
         }
     cout << "El arreglo es: ";
     for (int i = 0; i < n; i++){
@@ -56,17 +56,22 @@ int main(){
 	// Close data 1
 	outfile.close();
 		
-
+    cout << '\n';
+    cout << "El arreglo de números impares menores al umbral es: ";
 	// Arreglo con impares menos que 800
-	ofstream outfile;
 	outfile.open("arrImp.dat");
 	int umbral = 800; 
 	outfile << 1 << '\n';
-	for (int i = 0; i < n; i++){
-		if (arrRand[i] < umbral && arrRand[i]%2 == 0){
+    bool b = true;
+	for (int i = 0; i < n && b; i++){
+        if (arrRand[i] < umbral && arrRand[i]%2 != 0){
+            cout << arrRand[i] << ' ';
 			outfile << arrRand[i] << '\n';
 		}
-	}
+        else if (arrRand[i] > umbral ){
+            b = false;
+        }
+    }
 
 	// Close
 	outfile.close();
