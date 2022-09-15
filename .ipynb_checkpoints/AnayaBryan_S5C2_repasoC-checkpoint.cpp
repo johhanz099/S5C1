@@ -1,3 +1,4 @@
+
 #include <iostream>
 #include <cstdlib>
 #include <cmath>
@@ -46,7 +47,7 @@ int main(){
 	int n = 300;
     int arrRand[n] = {};
     for (int i = 0; i < n; i++){
-        arrRand[i] = rand() % 900;
+        arrRand[i] = rand() % 902;
         }
     cout << "El arreglo es: ";
     for (int i = 0; i < n; i++){
