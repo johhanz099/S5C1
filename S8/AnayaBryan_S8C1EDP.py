@@ -12,3 +12,5 @@ plt.ylabel("h")
 plt.ylim(-.5*np.max(yf),2*np.max(yf))
 plt.legend()
 plt.savefig("Finicial.png")
+
+print("prub")
