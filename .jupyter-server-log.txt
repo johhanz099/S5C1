@@ -277,3 +277,165 @@
 [I 02:06:39.996 NotebookApp] Saving file at /S7/AnayaBryan_S6C2_EDO.cpp
 [I 02:08:40.544 NotebookApp] Saving file at /S7/AnayaBryan_S6C2_EDO.cpp
 [I 2022-09-27 03:21:19.870 LabApp] Build is up to date
+[W 2022-10-06 05:36:27.603 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-10-06 05:36:27.603 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-10-06 05:36:27.603 LabApp] 'base_url' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-10-06 05:36:27.603 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-10-06 05:36:27.603 LabApp] 'trust_xheaders' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-10-06 05:36:27.603 LabApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-10-06 05:36:27.603 LabApp] 'allow_origin_pat' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-10-06 05:36:27.603 LabApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2022-10-06 05:36:27.604 LabApp] 'jinja_template_vars' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2022-10-06 05:36:27.604 LabApp] 'shutdown_no_activity_timeout' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-10-06 05:36:27.604 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-10-06 05:36:27.604 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-10-06 05:36:27.614 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/jupyterlab
+[I 2022-10-06 05:36:27.614 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 05:36:27.623 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/nteract_on_jupyter
+[I 05:36:27.625 NotebookApp] Will shut down after 600 seconds with no kernels or terminals.
+[I 05:36:27.626 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 05:36:27.626 NotebookApp] Jupyter Notebook 6.4.10 is running at:
+[I 05:36:27.626 NotebookApp] http://jupyter-johhanz099-2ds5c1-2dzvy4uttr:8888/user/johhanz099-s5c1-zvy4uttr/?token=...
+[I 05:36:27.626 NotebookApp]  or http://127.0.0.1:8888/user/johhanz099-s5c1-zvy4uttr/?token=...
+[I 05:36:27.626 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 05:36:27.646 NotebookApp] No web browser found: could not locate runnable browser.
+[I 05:36:28.241 NotebookApp] 302 GET /user/johhanz099-s5c1-zvy4uttr/ (10.0.5.15) 1.090000ms
+[I 05:36:28.512 NotebookApp] 302 GET /user/johhanz099-s5c1-zvy4uttr/?token=Hzk_lHPPTJ2fBzeZBHMWcQ (186.154.33.226) 1.000000ms
+[I 05:36:28.691 NotebookApp] 301 GET /user/johhanz099-s5c1-zvy4uttr/lab/?token=Hzk_lHPPTJ2fBzeZBHMWcQ (186.154.33.226) 1.710000ms
+[I 05:37:40.584 NotebookApp] 301 GET /user/johhanz099-s5c1-zvy4uttr/static/favicons/favicon.ico (186.154.33.226) 0.670000ms
+[I 2022-10-06 05:37:49.999 LabApp] Build is up to date
+[I 05:37:51.136 NotebookApp] New terminal with automatic name: 1
+[I 05:38:30.699 NotebookApp] Uploading file to /S8/AnayaBryan_S8C1EDP.cpp
+[W 05:39:11.950 NotebookApp] delete /S7/a.out
+[W 05:39:11.959 NotebookApp] delete /S7/Makefile_AnayaBryan_S6C2_EDO.mk
+[W 05:39:12.060 NotebookApp] delete /S7/AnayaBryan_S6C2_EDO.cpp
+[I 05:43:29.296 NotebookApp] Uploading file to /S7/AnayaBryan_S7C2_EDO2 (1).py
+[I 05:43:30.554 NotebookApp] Uploading file to /S7/Makefile_AnayaBryan_S7C2_EDO2 (1).mk
+[I 05:43:31.698 NotebookApp] Uploading file to /S7/AnayaBryan_S7C2_EDO2 (1).cpp
+[I 06:49:50.578 NotebookApp] New terminal with automatic name: 2
+[W 06:51:04.270 NotebookApp] delete /S7/AnayaBryan_S7C2_EDO2 (1).py
+[W 06:51:04.278 NotebookApp] delete /S7/Makefile_AnayaBryan_S7C2_EDO2 (1).mk
+[W 06:51:04.281 NotebookApp] delete /S7/AnayaBryan_S7C2_EDO2 (1).cpp
+[I 06:51:10.223 NotebookApp] Uploading file to /S7/AnayaBryan_S7C2_EDO2.py
+[I 06:51:10.311 NotebookApp] Uploading file to /S7/AnayaBryan_S7C2_EDO2.cpp
+[I 06:51:10.446 NotebookApp] Uploading file to /S7/Makefile_AnayaBryan_S7C2_EDO2.mk
+[I 06:51:19.273 NotebookApp] New terminal with automatic name: 3
+[I 06:53:20.388 NotebookApp] Saving file at /S7/AnayaBryan_S7C2_EDO2.cpp
+[I 06:54:07.291 NotebookApp] Saving file at /S7/AnayaBryan_S7C2_EDO2.cpp
+[I 06:55:04.823 NotebookApp] Saving file at /S7/AnayaBryan_S7C2_EDO2.py
+[I 06:56:22.598 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 06:56:22.766 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 06:57:49.631 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 06:58:49.127 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 06:59:03.228 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 07:00:33.190 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 07:00:44.258 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 07:02:04.402 NotebookApp] Saving file at /S7/AnayaBryan_S7C2_EDO2.cpp
+[I 07:02:57.182 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 07:03:33.057 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 07:03:35.612 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 07:04:04.595 NotebookApp] Saving file at /S7/AnayaBryan_S7C2_EDO2.cpp
+[I 07:05:06.101 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 07:07:06.282 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 07:09:06.473 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 07:09:50.879 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 07:10:57.613 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 07:12:57.799 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 07:14:09.007 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 07:16:09.192 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 07:18:09.381 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 07:20:09.566 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 07:22:09.757 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 07:24:09.956 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 07:28:10.151 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 07:30:10.841 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 07:31:35.302 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 07:31:48.783 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 07:32:26.057 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 07:32:37.935 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 07:33:54.644 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 07:34:43.273 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 07:34:53.409 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 07:34:59.078 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 07:35:50.170 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 07:37:19.471 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 07:38:16.978 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 07:38:29.349 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 07:39:16.664 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 07:39:41.744 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 07:40:29.834 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 07:40:49.500 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 07:41:05.747 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 07:41:31.709 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 07:42:14.224 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.py
+[I 07:43:31.892 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 07:43:42.753 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 07:44:07.482 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 07:44:14.413 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.py
+[I 07:44:55.312 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.py
+[I 07:45:42.009 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 07:46:15.501 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 07:47:54.922 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[W 07:48:26.768 NotebookApp] delete /S8/pruebaY.dat
+[I 07:49:14.927 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 07:50:09.204 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 07:51:33.683 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 07:52:18.705 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 07:52:23.426 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 07:52:36.912 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.py
+[I 07:53:30.776 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.py
+[I 07:54:25.844 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.py
+[I 07:54:31.432 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.py
+[I 07:55:19.436 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.py
+[I 07:55:54.766 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.py
+[I 07:56:23.619 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 07:56:23.767 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 07:57:22.113 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.py
+[I 08:00:05.240 NotebookApp] Saving file at /S8/MakeFile_AnayaBryan_S8C1EDP.mk
+[I 08:00:58.513 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 08:00:59.283 NotebookApp] Saving file at /S8/MakeFile_AnayaBryan_S8C1EDP.mk
+[I 08:02:17.684 NotebookApp] Saving file at /S8/MakeFile_AnayaBryan_S8C1EDP.mk
+[I 08:02:40.113 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 08:05:53.123 NotebookApp] Saving file at /S8/MakeFile_AnayaBryan_S8C1EDP.mk
+[I 08:06:03.395 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 08:06:58.271 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.py
+[W 08:07:02.898 NotebookApp] delete /S8/pruebaY.dat
+[W 08:07:27.075 NotebookApp] delete /S8/prueba.png
+[I 08:08:01.130 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.py
+[I 08:10:03.581 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 08:12:03.782 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 08:14:03.972 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 08:16:01.150 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 08:16:18.794 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 08:16:31.447 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 08:16:41.750 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 08:17:19.497 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 08:18:22.996 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 08:20:20.246 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 08:20:46.837 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 08:21:57.088 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 08:22:18.601 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 08:24:18.786 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 08:26:10.170 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 08:26:33.238 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 08:26:48.019 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 08:28:23.177 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 08:29:59.511 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 08:30:20.637 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 08:30:50.531 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 08:31:21.688 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 08:33:21.883 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 08:34:12.211 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 08:35:05.529 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 08:35:35.204 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 08:35:57.426 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 08:36:36.199 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[I 08:36:52.242 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.cpp
+[W 08:37:04.590 NotebookApp] delete /S8/Finicial.png
+[I 08:39:35.106 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.py
+[I 08:40:01.935 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.py
+[I 08:40:49.766 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.py
+[I 08:42:04.546 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.py
+[I 08:42:47.837 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.py
+[I 08:43:13.851 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.py
+[I 08:44:50.432 NotebookApp] Saving file at /prueba.txt
