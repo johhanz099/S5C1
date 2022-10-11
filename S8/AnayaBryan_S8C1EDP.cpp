@@ -9,7 +9,7 @@ typedef vector<double> vec; //nombre para vector
 /*
 Inicializar método ecuación de onda
 */
-void eqOnda(float c, float L, float h, float N, vec & xInic, vec & yInic);
+void eqOnda(float c, float L, float h, float N, vec & xInic, vec & yInic, float tf);
 
 
 /*
@@ -25,14 +25,16 @@ MAIN /////////////////////////7
 int main(void){
 	float c = 300; // velocidad de propagación
     float h = 0.1; // altura inicial de la cuerda
-	float L = 2; // longitud de la cuerda
+	float L = 10; // longitud de la cuerda
     float N = 100; // Cantidad de divisiones discretas - N par
-    float tf= 0.1; // tiempo final
+    float tf= 0.01; // tiempo final
     
     // Prueba implementar funcion condición inicial
     vec xInic(N,0);
     vec yInic(N,0);
     FcondInicial(L,h,N,xInic,yInic); //Funcionó correctamente
+
+	eqOnda(c,L,h,N,xInic,yInic,tf);
     
     //vec condInicialx = FcondInicial(L,h,N)[0];
     //vec condInicialy = FcondInicial(L,h,N)[1];
@@ -49,19 +51,47 @@ void eqOnda(float c, float L, float h, float N, vec & xInic, vec & yInic, float 
     float k  = c*c*dt*dt*dx*dx;
     vec t(N,0);
     vec upast = yInic;
+	vec upres(N,0);
+	vec ufutt(N,0);
     int ntmax = tf/dt;
+
+	// Open Data
+	ofstream outfile;
+	outfile.open("dataOnda.dat");
+
+
+	for (int i = 0; i <= N; i++){
+		if (i == 0 || i == N){
+		upres[i] = 0;		
+		}
+		else {
+		upres[i] = upast[i] + 0.5*k*(upast[i+1] - 2*upast[i] + upast[i-1]);
+		}
+	}
     
-    //Open data
-    
-    for (int j = 0; j <= ntmax; j++){
+    for (int j = 2; j <= ntmax; j++){
         t[j] = dt * j; // avance en t
-        
-        for (int i = 0, i <= N, i++){
-            u[j] = 
-            
-    }
-    
-    
+
+		outfile << t[j];
+
+        for (int i = 0; i <= N; i++){
+			if (i == 0 || i == N){
+				ufutt[i] = 0;
+				outfile << "," << ufutt[i];	
+			}
+			else {
+				ufutt[i] = 2*upres[i] - upast[i] + k*(upres[i+1] - 2*upres[i] + upres[i-1]);
+				outfile << "," << ufutt[i];
+			}
+			
+		}
+		outfile << "\n";
+		upast = upres;
+		upres = ufutt;
+	}
+
+	// Close file
+	outfile.close();
     
     
 }

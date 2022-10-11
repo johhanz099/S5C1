@@ -12,5 +12,13 @@ plt.ylabel("h")
 plt.ylim(-.5*np.max(yf),2*np.max(yf))
 plt.legend()
 plt.savefig("Finicial.png")
+plt.close()
 
-print("prub")
+
+dataOnda = np.genfromtxt("dataOnda.dat", delimiter = ",")
+t = dataOnda[:,0]
+fils, cols = dataOnda.shape[0], dataOnda[1]
+plt.figure()
+for i in range(10):
+	plt.plot(t,dataOnda[i,1:])
+plt.savefig("GrafOnda")
