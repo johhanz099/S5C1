@@ -439,3 +439,33 @@
 [I 08:42:47.837 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.py
 [I 08:43:13.851 NotebookApp] Saving file at /S8/AnayaBryan_S8C1EDP.py
 [I 08:44:50.432 NotebookApp] Saving file at /prueba.txt
+[W 2022-10-13 20:56:35.099 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-10-13 20:56:35.099 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-10-13 20:56:35.099 LabApp] 'base_url' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-10-13 20:56:35.099 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-10-13 20:56:35.099 LabApp] 'trust_xheaders' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-10-13 20:56:35.099 LabApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-10-13 20:56:35.099 LabApp] 'allow_origin_pat' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-10-13 20:56:35.099 LabApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2022-10-13 20:56:35.099 LabApp] 'jinja_template_vars' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2022-10-13 20:56:35.099 LabApp] 'shutdown_no_activity_timeout' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-10-13 20:56:35.099 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-10-13 20:56:35.100 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-10-13 20:56:35.116 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/jupyterlab
+[I 2022-10-13 20:56:35.116 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 20:56:35.130 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/nteract_on_jupyter
+[I 20:56:35.132 NotebookApp] Will shut down after 600 seconds with no kernels or terminals.
+[I 20:56:35.133 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 20:56:35.133 NotebookApp] Jupyter Notebook 6.4.10 is running at:
+[I 20:56:35.133 NotebookApp] http://jupyter-johhanz099-2ds5c1-2dv7hd3xt4:8888/user/johhanz099-s5c1-v7hd3xt4/?token=...
+[I 20:56:35.133 NotebookApp]  or http://127.0.0.1:8888/user/johhanz099-s5c1-v7hd3xt4/?token=...
+[I 20:56:35.133 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 20:56:35.140 NotebookApp] No web browser found: could not locate runnable browser.
+[I 20:56:35.231 NotebookApp] 302 GET /user/johhanz099-s5c1-v7hd3xt4/ (10.0.5.15) 1.200000ms
+[I 20:56:35.590 NotebookApp] 302 GET /user/johhanz099-s5c1-v7hd3xt4/?token=qyPp7TNUROmMl8OyE1xQYA (168.176.40.192) 1.060000ms
+[I 20:56:35.678 NotebookApp] 301 GET /user/johhanz099-s5c1-v7hd3xt4/lab/?token=qyPp7TNUROmMl8OyE1xQYA (168.176.40.192) 2.010000ms
+[I 20:56:42.008 NotebookApp] 301 GET /user/johhanz099-s5c1-v7hd3xt4/static/favicons/favicon.ico (168.176.40.192) 0.870000ms
+[I 2022-10-13 20:56:47.364 LabApp] Build is up to date
+[I 20:56:48.539 NotebookApp] New terminal with automatic name: 1
+[I 20:57:11.777 NotebookApp] Uploading file to /S9/AnayaBryan_S9C2_EDP.cpp
+[I 20:57:11.857 NotebookApp] Uploading file to /S9/a.out
