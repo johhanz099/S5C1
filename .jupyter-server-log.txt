@@ -469,3 +469,84 @@
 [I 20:56:48.539 NotebookApp] New terminal with automatic name: 1
 [I 20:57:11.777 NotebookApp] Uploading file to /S9/AnayaBryan_S9C2_EDP.cpp
 [I 20:57:11.857 NotebookApp] Uploading file to /S9/a.out
+[W 2022-10-20 19:05:58.638 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-10-20 19:05:58.638 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-10-20 19:05:58.638 LabApp] 'base_url' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-10-20 19:05:58.638 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-10-20 19:05:58.638 LabApp] 'trust_xheaders' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-10-20 19:05:58.638 LabApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-10-20 19:05:58.638 LabApp] 'allow_origin_pat' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-10-20 19:05:58.638 LabApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2022-10-20 19:05:58.638 LabApp] 'jinja_template_vars' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2022-10-20 19:05:58.638 LabApp] 'shutdown_no_activity_timeout' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-10-20 19:05:58.639 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-10-20 19:05:58.639 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-10-20 19:05:58.649 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/jupyterlab
+[I 2022-10-20 19:05:58.649 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 19:05:58.662 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/nteract_on_jupyter
+[I 19:05:58.664 NotebookApp] Will shut down after 600 seconds with no kernels or terminals.
+[I 19:05:58.665 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 19:05:58.665 NotebookApp] Jupyter Notebook 6.4.12 is running at:
+[I 19:05:58.665 NotebookApp] http://jupyter-johhanz099-2ds5c1-2dom2xidpw:8888/user/johhanz099-s5c1-om2xidpw/?token=...
+[I 19:05:58.665 NotebookApp]  or http://127.0.0.1:8888/user/johhanz099-s5c1-om2xidpw/?token=...
+[I 19:05:58.665 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 19:05:58.904 NotebookApp] No web browser found: could not locate runnable browser.
+[I 19:06:00.153 NotebookApp] 302 GET /user/johhanz099-s5c1-om2xidpw/ (10.0.5.15) 0.890000ms
+[I 19:06:00.568 NotebookApp] 302 GET /user/johhanz099-s5c1-om2xidpw/?token=K6FW8Ca6QnWtwGXRJAKsjA (168.176.40.192) 0.980000ms
+[I 19:06:00.654 NotebookApp] 301 GET /user/johhanz099-s5c1-om2xidpw/lab/?token=K6FW8Ca6QnWtwGXRJAKsjA (168.176.40.192) 2.340000ms
+[I 19:06:01.241 NotebookApp] 301 GET /user/johhanz099-s5c1-om2xidpw/static/favicons/favicon.ico (168.176.40.192) 0.670000ms
+[I 2022-10-20 19:06:06.679 LabApp] Build is up to date
+[I 19:06:08.094 NotebookApp] New terminal with automatic name: 1
+[I 19:06:56.769 NotebookApp] New terminal with automatic name: 2
+[I 19:30:53.915 NotebookApp] Saving file at /S10/AnayaBryan_S10C2.py
+[I 19:34:54.246 NotebookApp] Saving file at /S10/AnayaBryan_S10C2.py
+[I 19:37:30.532 NotebookApp] Uploading file to /S10/resorte.dat
+[I 19:42:54.434 NotebookApp] Saving file at /S10/AnayaBryan_S10C2.py
+[I 19:43:03.486 NotebookApp] Saving file at /S10/AnayaBryan_S10C2.py
+[I 19:43:26.383 NotebookApp] Saving file at /S10/AnayaBryan_S10C2.py
+[I 19:46:33.119 NotebookApp] Saving file at /S10/AnayaBryan_S10C2.py
+[I 19:48:33.314 NotebookApp] Saving file at /S10/AnayaBryan_S10C2.py
+[I 19:50:10.937 NotebookApp] Saving file at /S10/AnayaBryan_S10C2.py
+[I 19:51:50.764 NotebookApp] Saving file at /S10/AnayaBryan_S10C2.py
+[I 19:52:00.277 NotebookApp] Saving file at /S10/AnayaBryan_S10C2.py
+[I 19:54:00.468 NotebookApp] Saving file at /S10/AnayaBryan_S10C2.py
+[I 19:54:14.488 NotebookApp] 302 GET /user/johhanz099-s5c1-om2xidpw/lab/tree/S10/AnayaBryan_S10C2.py (168.176.40.192) 1.000000ms
+[I 19:54:57.528 NotebookApp] Saving file at /S10/AnayaBryan_S10C2.py
+[I 19:56:57.735 NotebookApp] Saving file at /S10/AnayaBryan_S10C2.py
+[I 19:58:57.937 NotebookApp] Saving file at /S10/AnayaBryan_S10C2.py
+[I 20:00:58.130 NotebookApp] Saving file at /S10/AnayaBryan_S10C2.py
+[I 20:01:18.231 NotebookApp] Saving file at /S10/AnayaBryan_S10C2.py
+[I 20:05:18.416 NotebookApp] Saving file at /S10/AnayaBryan_S10C2.py
+[I 20:07:18.608 NotebookApp] Saving file at /S10/AnayaBryan_S10C2.py
+[I 20:09:18.797 NotebookApp] Saving file at /S10/AnayaBryan_S10C2.py
+[I 20:11:19.024 NotebookApp] Saving file at /S10/AnayaBryan_S10C2.py
+[I 20:13:19.216 NotebookApp] Saving file at /S10/AnayaBryan_S10C2.py
+[I 20:15:19.412 NotebookApp] Saving file at /S10/AnayaBryan_S10C2.py
+[I 20:17:19.811 NotebookApp] Saving file at /S10/AnayaBryan_S10C2.py
+[I 20:21:20.002 NotebookApp] Saving file at /S10/AnayaBryan_S10C2.py
+[I 20:23:20.363 NotebookApp] Saving file at /S10/AnayaBryan_S10C2.py
+[I 20:25:20.585 NotebookApp] Saving file at /S10/AnayaBryan_S10C2.py
+[I 20:29:20.775 NotebookApp] Saving file at /S10/AnayaBryan_S10C2.py
+[I 20:31:20.961 NotebookApp] Saving file at /S10/AnayaBryan_S10C2.py
+[I 20:33:21.163 NotebookApp] Saving file at /S10/AnayaBryan_S10C2.py
+[I 20:35:21.363 NotebookApp] Saving file at /S10/AnayaBryan_S10C2.py
+[I 20:37:21.548 NotebookApp] Saving file at /S10/AnayaBryan_S10C2.py
+[I 20:37:58.734 NotebookApp] Saving file at /S10/AnayaBryan_S10C2.py
+[I 20:39:24.376 NotebookApp] Saving file at /S10/AnayaBryan_S10C2.py
+[I 20:41:24.553 NotebookApp] Saving file at /S10/AnayaBryan_S10C2.py
+[I 20:42:51.355 NotebookApp] Saving file at /S10/prueba.py
+[I 20:43:24.732 NotebookApp] Saving file at /S10/AnayaBryan_S10C2.py
+[I 20:45:24.923 NotebookApp] Saving file at /S10/AnayaBryan_S10C2.py
+[I 20:47:25.116 NotebookApp] Saving file at /S10/AnayaBryan_S10C2.py
+[I 20:49:25.324 NotebookApp] Saving file at /S10/AnayaBryan_S10C2.py
+[I 20:50:11.447 NotebookApp] Saving file at /S10/AnayaBryan_S10C2.py
+[I 20:52:11.635 NotebookApp] Saving file at /S10/AnayaBryan_S10C2.py
+[I 20:54:11.817 NotebookApp] Saving file at /S10/AnayaBryan_S10C2.py
+[I 20:55:17.448 NotebookApp] Saving file at /S10/AnayaBryan_S10C2.py
+[I 20:55:38.414 NotebookApp] Saving file at /S10/AnayaBryan_S10C2.py
+[I 20:55:58.684 NotebookApp] Saving file at /S10/AnayaBryan_S10C2.py
+[I 20:57:15.513 NotebookApp] Saving file at /S10/AnayaBryan_S10C2.py
+[I 20:57:40.942 NotebookApp] Saving file at /S10/AnayaBryan_S10C2.py
+[I 20:58:49.722 NotebookApp] Saving file at /S10/AnayaBryan_S10C2.py
+[I 20:59:01.960 NotebookApp] Saving file at /S10/AnayaBryan_S10C2.py
+[I 21:00:16.615 NotebookApp] Saving file at /S10/AnayaBryan_S10C2.py
