@@ -710,3 +710,12 @@
 [I 16:33:21.422 NotebookApp] Uploading file to /S5_RepasoC++/AnayaBryan_S5C2_repasoC (2).cpp
 [I 16:33:48.499 NotebookApp] Uploading file to /S5_RepasoC++/AnayaBryan_S6C1_Graf (1).py
 [W 16:33:59.135 NotebookApp] delete /S5_RepasoC++/AnayaBryan_S6C1_Graf.py
+[W 16:38:36.087 NotebookApp] delete /a.out
+[W 16:38:36.096 NotebookApp] delete /AnayaBryan_S5C2_repasoC.cpp
+[W 16:38:36.100 NotebookApp] delete /AnayaBryan_S6C1_Graf.py
+[W 16:38:36.104 NotebookApp] delete /arrAleat.dat
+[W 16:38:36.109 NotebookApp] delete /fig1_dataRand.png
+[W 16:38:36.173 NotebookApp] delete /fig2_dataImp.png
+[W 16:38:36.182 NotebookApp] delete /MakeFile.mk
+[W 16:38:36.186 NotebookApp] delete /graf1.png
+[W 16:38:36.190 NotebookApp] delete /arrImp.dat
