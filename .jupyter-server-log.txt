@@ -719,3 +719,158 @@
 [W 16:38:36.182 NotebookApp] delete /MakeFile.mk
 [W 16:38:36.186 NotebookApp] delete /graf1.png
 [W 16:38:36.190 NotebookApp] delete /arrImp.dat
+[W 2022-11-01 19:05:20.520 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-11-01 19:05:20.520 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-11-01 19:05:20.520 LabApp] 'base_url' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-11-01 19:05:20.520 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-11-01 19:05:20.520 LabApp] 'trust_xheaders' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-11-01 19:05:20.520 LabApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-11-01 19:05:20.520 LabApp] 'allow_origin_pat' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-11-01 19:05:20.520 LabApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2022-11-01 19:05:20.520 LabApp] 'jinja_template_vars' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2022-11-01 19:05:20.520 LabApp] 'shutdown_no_activity_timeout' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-11-01 19:05:20.520 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-11-01 19:05:20.520 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-11-01 19:05:20.531 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/jupyterlab
+[I 2022-11-01 19:05:20.531 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 19:05:20.545 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/nteract_on_jupyter
+[I 19:05:20.547 NotebookApp] Will shut down after 600 seconds with no kernels or terminals.
+[I 19:05:20.548 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 19:05:20.548 NotebookApp] Jupyter Notebook 6.4.12 is running at:
+[I 19:05:20.548 NotebookApp] http://jupyter-johhanz099-2ds5c1-2dxgg81sti:8888/user/johhanz099-s5c1-xgg81sti/?token=...
+[I 19:05:20.548 NotebookApp]  or http://127.0.0.1:8888/user/johhanz099-s5c1-xgg81sti/?token=...
+[I 19:05:20.548 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 19:05:20.553 NotebookApp] No web browser found: could not locate runnable browser.
+[I 19:05:23.441 NotebookApp] 302 GET /user/johhanz099-s5c1-xgg81sti/ (10.0.5.47) 0.990000ms
+[I 19:05:23.799 NotebookApp] 302 GET /user/johhanz099-s5c1-xgg81sti/?token=XuSUPfqLT6KFlklhXReSbg (168.176.40.192) 0.800000ms
+[I 19:05:23.885 NotebookApp] 301 GET /user/johhanz099-s5c1-xgg81sti/lab/?token=XuSUPfqLT6KFlklhXReSbg (168.176.40.192) 1.840000ms
+[I 19:05:25.159 NotebookApp] 301 GET /user/johhanz099-s5c1-xgg81sti/static/favicons/favicon.ico (168.176.40.192) 0.780000ms
+[I 2022-11-01 19:06:11.879 LabApp] Build is up to date
+[I 19:06:21.431 NotebookApp] New terminal with automatic name: 1
+[I 19:06:22.667 NotebookApp] New terminal with automatic name: 2
+[I 19:06:24.062 NotebookApp] New terminal with automatic name: 3
+[I 19:07:08.939 NotebookApp] Creating new directory in 
+[I 19:14:53.114 NotebookApp] Uploading file to /Parcial1/Parcialeje4_ODE.py
+[I 19:14:53.123 NotebookApp] Uploading file to /Parcial1/Parcialeje2_Cplusplus.cpp
+[I 19:14:53.128 NotebookApp] Uploading file to /Parcial1/Parcialeje3_fourier.py
+[I 19:14:53.188 NotebookApp] Uploading file to /Parcial1/TemperaturaNottem.csv
+[I 19:14:53.194 NotebookApp] Uploading file to /Parcial1/Parcialeje1_geometria.py
+[I 19:15:10.650 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio1.py
+[I 19:15:42.792 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio2.cpp
+[I 19:16:05.145 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio3.py
+[I 19:16:59.954 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio4.py
+[W 19:17:10.260 NotebookApp] delete /Parcial1/Parcialeje1_geometria.py
+[W 19:17:10.264 NotebookApp] delete /Parcial1/Parcialeje2_Cplusplus.cpp
+[W 19:17:10.266 NotebookApp] delete /Parcial1/Parcialeje3_fourier.py
+[W 19:17:10.359 NotebookApp] delete /Parcial1/Parcialeje4_ODE.py
+[I 19:21:42.989 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio2.cpp
+[I 19:21:49.973 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio2.cpp
+[I 19:25:50.925 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio2.cpp
+[I 19:25:55.634 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio2.cpp
+[I 19:26:25.494 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio2.cpp
+[I 19:26:56.701 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio2.cpp
+[I 19:28:18.140 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio2.cpp
+[I 19:28:22.247 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio2.cpp
+[I 19:28:25.400 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio2.cpp
+[I 19:28:41.750 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio2.cpp
+[I 19:28:53.820 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio2.cpp
+[I 19:32:54.025 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio2.cpp
+[I 19:34:54.223 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio2.cpp
+[I 19:36:54.421 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio2.cpp
+[I 19:38:54.614 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio2.cpp
+[I 19:40:54.802 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio2.cpp
+[I 19:42:31.936 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio2.cpp
+[I 19:42:36.476 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio2.cpp
+[I 19:42:55.667 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio2.cpp
+[I 19:43:10.466 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio2.cpp
+[I 19:44:15.770 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio2.cpp
+[I 19:44:18.641 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio2.cpp
+[I 19:44:44.926 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio2.cpp
+[I 19:45:05.032 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio2.cpp
+[I 19:46:45.818 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio2.cpp
+[I 19:47:04.538 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio2.cpp
+[I 19:47:11.459 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio2.cpp
+[I 19:48:07.104 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio2.cpp
+[I 19:52:08.368 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio2.cpp
+[I 19:54:08.640 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio2.cpp
+[I 19:56:08.923 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio2.cpp
+[I 19:58:09.113 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio2.cpp
+[I 19:58:56.199 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio2.cpp
+[I 19:59:02.010 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio2.cpp
+[I 20:00:05.297 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio2.cpp
+[I 20:00:21.999 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio2.cpp
+[I 20:00:56.971 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio2.cpp
+[I 20:04:57.768 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio2.cpp
+[I 20:05:46.959 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio2.cpp
+[I 20:06:51.275 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio2.cpp
+[I 20:06:57.077 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio2.cpp
+[I 20:07:11.944 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio2.cpp
+[I 20:07:50.135 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio2.cpp
+[I 20:08:13.220 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio2.cpp
+[I 20:08:33.775 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio2.cpp
+[I 20:08:43.242 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio2.cpp
+[I 20:08:49.423 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio2.cpp
+[I 20:09:03.203 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio2.cpp
+[I 20:11:03.393 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio2.cpp
+[I 20:11:31.533 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio2.cpp
+[I 20:12:03.670 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio2.cpp
+[I 20:13:44.316 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio2.cpp
+[I 20:13:50.675 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio2.cpp
+[I 20:14:13.093 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio2.cpp
+[I 20:14:37.600 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio2.cpp
+[I 20:14:52.110 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio2.cpp
+[I 20:15:38.466 NotebookApp] Uploading file to /S5,6_RepasoC++/TemperaturaNottem.csv
+[I 20:16:07.775 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio3.py
+[I 20:16:57.424 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio3.py
+[I 20:17:56.591 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio3.py
+[I 20:19:28.788 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio3.py
+[I 20:19:34.271 NotebookApp] 302 GET /user/johhanz099-s5c1-xgg81sti/lab/tree/Parcial1/BryanAnayaEjercicio2.cpp (168.176.40.192) 1.080000ms
+[I 20:19:50.834 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio3.py
+[I 20:21:39.937 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio3.py
+[I 20:23:33.438 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio3.py
+[I 20:23:53.108 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio3.py
+[I 20:25:56.291 NotebookApp] Uploading file to /Parcial1/PinillaSantiago_S7C1_EDO2.cpp
+[I 20:30:37.491 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio2.cpp
+[I 20:31:53.301 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio3.py
+[I 20:33:47.911 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio3.py
+[I 20:34:20.567 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio3.py
+[I 20:36:10.081 NotebookApp] Uploading file to /Parcial1/SantiagoPinilla_S4CASA_FT.py.txt
+[I 20:38:28.513 NotebookApp] Saving file at /S4_Cov&FFT/AnayaBryan_S4CASA_FT (1).py
+[I 20:40:00.888 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio3.py
+[I 20:42:01.077 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio3.py
+[I 20:42:01.124 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio3.py
+[I 20:42:53.936 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio3.py
+[I 20:43:22.642 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio3.py
+[I 20:44:21.159 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio3.py
+[I 20:46:13.422 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio3.py
+[I 20:47:26.906 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio3.py
+[I 20:48:22.430 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio3.py
+[I 20:48:42.512 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio3.py
+[I 20:48:54.092 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio3.py
+[I 20:50:10.019 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio3.py
+[I 20:50:41.699 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio3.py
+[I 20:52:23.182 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio3.py
+[I 20:52:32.759 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio3.py
+[I 20:54:32.945 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio3.py
+[I 20:56:19.712 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio3.py
+[I 20:56:27.792 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio3.py
+[W 20:56:42.571 NotebookApp] delete /Parcial1/Fourier_trans.png
+[W 20:56:46.332 NotebookApp] delete /Parcial1/temp.png
+[I 20:57:49.370 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio3.py
+[I 20:57:54.166 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio3.py
+[I 20:58:30.524 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio3.py
+[I 20:59:21.721 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio1.py
+[I 21:00:12.041 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio1.py
+[I 21:00:17.278 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio1.py
+[I 21:00:19.109 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio2.cpp
+[I 21:00:26.459 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio3.py
+[I 21:00:57.021 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio3.py
+[I 21:01:03.355 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio1.py
+[I 21:01:04.137 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio2.cpp
+[I 21:01:04.847 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio3.py
+[I 21:01:06.221 NotebookApp] Saving file at /Parcial1/BryanAnayaEjercicio4.py
+[W 21:02:53.914 NotebookApp] delete /Parcial1/PinillaSantiago_S7C1_EDO2.cpp
+[W 21:02:53.919 NotebookApp] delete /Parcial1/SantiagoPinilla_S4CASA_FT.py
+[W 21:02:53.920 NotebookApp] delete /Parcial1/señalOriginal.png
+[W 21:02:53.922 NotebookApp] delete /Parcial1/TempFiltrada.png
+[W 21:02:53.974 NotebookApp] delete /Parcial1/transformadaDeFourier.png

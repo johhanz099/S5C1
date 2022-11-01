@@ -124,16 +124,6 @@ sig_filtr = filtro1d(np.abs(fourier(sig)),freq_s,1000)
 plt.plot(freq_s,sig_filtr,500)
 plt.xlim(-2000,2000) # para encontrar frecuencias a filtrar
 
-# Funcion filtro de bajos
-def filtro_bajos(freq, FX):
-    n = FX.shape[0]
-    for i in range (freq.shape[0]):
-        if np.abs(freq[i]) > 500: # filtro para freecuencias mayores a 500
-            FX[i] = 0
-    return FX
-#Transformada filtrada
-trans_filt = filtro_bajos(frecuencia, datos1d_transfor)
-
 
 # In[110]:
 
