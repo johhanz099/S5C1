@@ -35,6 +35,8 @@ int main(){
     print(N,0.0);
 
     double time = 0.0;
+    
+    }
     for(int ii = 0; ii < NSTEPS; ++ii){
         force(N);
         trans_galileo(N);
